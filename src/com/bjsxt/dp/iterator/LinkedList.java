@@ -23,7 +23,6 @@ public class LinkedList implements Collection {
 
 	@Override
 	public Iterator iterator() {
-		// TODO Auto-generated method stub
 		return new LinkedListIterator();
 	}
 	
@@ -50,7 +49,7 @@ public class LinkedList implements Collection {
 //	private class LinkedListIterator implements Iterator{
 //
 //		private Node currentNode = head;
-//		private int nextIndex = 0;//…¢¿¼Ô´´úÂëÖĞµÄĞ´·¨
+//		private int nextIndex = 0;//â€¦Â¢Â¿Â¼Ã”Â´Â´ÃºÃ‚Ã«Ã–ÃÂµÃ„ÃÂ´Â·Â¨
 //		
 //		@Override
 //		public Object next() {
